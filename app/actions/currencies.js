@@ -9,7 +9,7 @@ export const CONVERSION_ERROR = 'CONVERSION_ERROR';
 
 export const changeCurrencyAmount = amount => ({
   type: CHANGE_CURRENCY_AMOUNT,
-  amount: parseFloat (amount),
+  amount: parseFloat(amount),
 });
 
 export const swapCurrency = () => ({
