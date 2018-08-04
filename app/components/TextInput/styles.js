@@ -8,7 +8,7 @@ export default EStyleSheet.create({
   $buttonBackgroundColorBase: '$white',
   $buttonBackgroundColorModifier: 0.1,
   container: {
-    align: 'center',
+    alignContent: 'center',
     backgroundColor: '$white',
     width: '90%',
     height: INPUT_HEIGHT,
